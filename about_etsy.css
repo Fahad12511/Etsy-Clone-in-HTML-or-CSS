@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text_container{
+    background-color: #fffbd8;
+    height: 600px;
+    width: 100%;
+}
+#heading_etsy{
+    /* background-color: rgb(255, 255, 0); */
+    text-align: center;
+    padding-top: 20px;
+}
+.text_container1 {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px;
+}
+
+#sub-heading1, #sub-heading2, #sub-heading3 {
+    width: 30%; 
+    font-style: normal;
+    text-align: start;
+    line-height: 1.6; 
+    margin: 10px;
+    padding: 10px; 
+    box-sizing: border-box; 
+    
+}
+
+
+#help_btn {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px;
+    
+     
+}
+
+#helo_btn {
+    padding: 10px 20px; 
+    font-size: 15px; 
+    border-radius: 30px;
+    /* color: transparent; */
+    background-color: transparent;
+    
+    
+}
+
+.container-foot{
+    background-color: #ccebff;
+    height: 200px;
+
+
+}
+.search-container {
+    display: flex;
+  
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    /* background-color: #c01a1a;/ */
+    border-radius: 30px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    flex: 1;
+}
+
+.subscribe-btn {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0 20px 20px 0;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}

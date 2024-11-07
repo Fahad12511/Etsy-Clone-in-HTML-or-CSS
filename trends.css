@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#trend{
+    
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    
+
+    
+}
+#text{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.circle_box{
+    height: 300px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly; 
+    padding-top: 30px;
+    
+     
+    
+   
+    
+  
+    
+}
+#circle_box1{
+    background-color: rgb(252, 252, 252);
+    height: 200px;
+    width: 150px;
+    
+    text-align:center;
+    
+}
+#circle_box2{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 150px;
+    text-align: center;
+
+}
